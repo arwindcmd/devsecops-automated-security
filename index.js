@@ -1,8 +1,8 @@
-const express = require('express');
+const express = require("express");
 const app = express();
 
-app.get('/', (req, res) => {
-  res.json({ message: 'Hello, DevSecOps!' });
+app.get("/", (req, res) => {
+  res.json({ message: "Hello, DevSecOps! pipeline" });
 });
 
 module.exports = app;
